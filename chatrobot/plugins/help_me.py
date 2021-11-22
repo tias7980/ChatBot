@@ -60,7 +60,7 @@ async def help(event):
             "You Can Deploy Your Own ChatBot By Watching Video Down There. \nThank You For Contacting Me.",
             buttons=[
                 [Button.url("Deploy Tutorial 📺", "t.me/Infotel14")],
-                [Button.url("Need Help ❓", "t.me/SerenaAssistantBot")],
+                [Button.url("Need Help ❓", "t.me/RGamer_s")],
             ],
         )
         
