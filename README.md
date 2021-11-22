@@ -1,15 +1,15 @@
 <p align="center"><a href="https://t.me/fridayot"><img src="https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png" width="2500"></a></p> 
-<h1 align="center"><b>CHAT-BOT</b></h1>
+<h1 align="center"><b>CHAT BOT</b></h1>
 <h4 align="center">A Simple Chatbot In Telethon With Join To Message Support !</h4>
 
 
 
 # Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DevsExpo/ChatBot/blob/main)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/New-Dev3/ChatBot/blob/main)
 
 # Normal Way
 ```python3
-git clone https://github.com/StarkGang/ChatBot
+git clone https://github.com/New-Dev3/ChatBot
 cd ChatBot
 pip install -r requirements.txt
 # Make A file Named local_config and put all your values There and Then Run the bot.
@@ -28,4 +28,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version. 
 
 # Credits
- • @Spechide For his [SQL Plugin](https://github.com/DevsExpo/ChatBot/blob/main/chatrobot/plugins/sql/users_sql.py) 
+ • @Spechide For his [SQL Plugin](https://github.com/New-Dev3/ChatBot/tree/main/chatrobot/plugins/sql/users_sql.py) 
