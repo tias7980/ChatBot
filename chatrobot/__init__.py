@@ -1,7 +1,7 @@
 import asyncio
 import glob
 import logging
-import os
+import os, re
 import sys
 import time
 from distutils.util import strtobool as sb
@@ -38,6 +38,10 @@ if bool(ENV):
             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=INFO
         )
     logger = getLogger(__name__)
+    
+
+if DB_URL and DB_URL.startswith("postgres://"):
+    DB_URL = DB_URL.replace("postgres://", "postgresql://", 1) 
     
 if Config.BOT_TOKEN is None:
     logger.info("BOT_TOKEN is None. Bot Is Quiting")
