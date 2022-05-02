@@ -1,5 +1,6 @@
 telethon
 cryptg
 heroku3
-sqlalchemy>=1.2
+sqlalchemy
 psycopg2
+psycopg2-bynary
